@@ -1,0 +1,15 @@
+project:
+  name: fraudmesh
+  version: "0.1.0"
+
+experiment:
+  seed: 42
+  device: cpu
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+
+logging:
+  level: INFO
